@@ -21,7 +21,7 @@ export default function Header() {
           <button className="btn btn-link text-blue">
             <RxCrossCircled size={20} /> <span>Publish a ride</span>
           </button>
-          <button className="btn btn-link text-dark">
+          <button className="btn btn-link text-blue">
             <FaUser size={24} />
           </button>
         </div>
