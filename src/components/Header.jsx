@@ -15,10 +15,10 @@ export default function Header() {
         </div>
         
         <div className="actions-container ms-auto d-flex align-items-center gap-3">
-          <button className="btn btn-link text-dark">
+          <button className="btn btn-link text-blue">
             <FaSearch size={20} /> <span>Search</span>
           </button>
-          <button className="btn btn-link text-dark">
+          <button className="btn btn-link text-blue">
             <RxCrossCircled size={20} /> <span>Publish a ride</span>
           </button>
           <button className="btn btn-link text-dark">
