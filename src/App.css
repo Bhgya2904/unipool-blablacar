@@ -1,0 +1,17 @@
+.banner {
+  background: linear-gradient(to right, #090c0d, #0083b0);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.input-group input:focus {
+  box-shadow: none;
+  border-color: #0677e9;
+}
+body {
+   background: linear-gradient(to right, #090c0d, #0083b0);
+}

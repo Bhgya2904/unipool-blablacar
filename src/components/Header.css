@@ -1,0 +1,72 @@
+/* Base Header Styles */
+.header-container {
+  padding: 0.75rem 1.5rem;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+/* Desktop Layout */
+.desktop-layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Mobile Layout */
+.mobile-layout {
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+.logo-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  animation: fadeInCenter 0.5s forwards;
+}
+
+/* Button Styles */
+.btn-link {
+  text-decoration: none !important;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 767.98px) {
+  .btn-link span {
+    display: none;
+  }
+  
+  .logo-center h3 {
+    font-size: 1.25rem;
+  }
+}
+
+@keyframes fadeInCenter {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+.text-gradient {
+  background: linear-gradient(90deg,#3795ca ,#292e49);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
