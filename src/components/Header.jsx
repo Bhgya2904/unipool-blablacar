@@ -1,6 +1,6 @@
 import React from "react";
 import { FaUser, FaCar, FaSearch } from "react-icons/fa";
-import { RxCrossCircled } from "react-icons/rx";
+import { IoAddCircleOutline } from "react-icons/io5";
 import "./Header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -19,7 +19,7 @@ export default function Header() {
             <FaSearch size={20} /> <span>Search</span>
           </button>
           <button className="btn btn-link text-blue">
-            <RxCrossCircled size={20} /> <span>Publish a ride</span>
+            <IoAddCircleOutline size={20} /> <span>Publish a ride</span>
           </button>
           <button className="btn btn-link text-blue">
             <FaUser size={24} />
