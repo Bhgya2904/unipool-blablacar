@@ -1,6 +1,8 @@
 import React from "react";
-import { FaUser, FaCar, FaSearch } from "react-icons/fa";
+import { FaUser, FaCar } from "react-icons/fa";
 import { IoAddCircleOutline } from "react-icons/io5";
+import { CiSearch } from "react-icons/ci";
+
 import "./Header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -16,10 +18,10 @@ export default function Header() {
         
         <div className="actions-container ms-auto d-flex align-items-center gap-3">
           <button className="btn btn-link text-blue">
-            <FaSearch size={20} /> <span>Search</span>
+            <CiSearch size={25} /> <span>Search</span>
           </button>
           <button className="btn btn-link text-blue">
-            <IoAddCircleOutline size={20} /> <span>Publish a ride</span>
+            <IoAddCircleOutline size={30} /> <span>Publish a ride</span>
           </button>
           <button className="btn btn-link text-blue">
             <FaUser size={24} />
@@ -40,10 +42,10 @@ export default function Header() {
 
         <div className="d-flex gap-2">
           <button className="btn btn-link text-dark">
-            <FaSearch size={20} />
+            <CiSearch size={25} />
           </button>
           <button className="btn btn-link text-dark">
-            <IoAddCircleOutline size={20} />
+            <IoAddCircleOutline size={30} />
           </button>
         </div>
       </div>
