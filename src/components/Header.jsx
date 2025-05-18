@@ -43,7 +43,7 @@ export default function Header() {
             <FaSearch size={20} />
           </button>
           <button className="btn btn-link text-dark">
-            <RxCrossCircled size={20} />
+            <IoAddCircleOutline size={20} />
           </button>
         </div>
       </div>
