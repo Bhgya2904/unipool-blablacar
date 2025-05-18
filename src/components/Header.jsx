@@ -19,7 +19,7 @@ export default function Header() {
             <FaSearch size={20} /> <span>Search</span>
           </button>
           <button className="btn btn-link text-dark">
-            <RxCrossCircled size={20} /> <span>Publish</span>
+            <RxCrossCircled size={20} /> <span>Publish a ride</span>
           </button>
           <button className="btn btn-link text-dark">
             <FaUser size={24} />
